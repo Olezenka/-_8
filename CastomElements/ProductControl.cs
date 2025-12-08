@@ -7,18 +7,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using ЛР_8.Forms;
 
-namespace ЛР_8
+namespace ЛР_8.CastomElements
 {
-    public partial class MainForm : Form
+    public partial class ProductControl : UserControl
     {
-        public MainForm()
+        public ProductControl()
         {
             InitializeComponent();
         }
 
-        private void MainForm_Load(object sender, EventArgs e)
+        private void ProductControl_Load(object sender, EventArgs e)
         {
 
         }

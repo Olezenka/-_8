@@ -1,4 +1,4 @@
-﻿namespace ЛР_8.Forms
+﻿namespace ЛР_8
 {
     partial class MainForm
     {
