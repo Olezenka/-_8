@@ -36,9 +36,15 @@
             // 
             this.panel1.Size = new System.Drawing.Size(1266, 15);
             // 
+            // buttonExit
+            // 
+            this.buttonExit.Text = "Назад";
+            // 
             // label1
             // 
+            this.label1.Font = new System.Drawing.Font("Segoe Print", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Size = new System.Drawing.Size(847, 59);
+            this.label1.Text = "Продукты";
             // 
             // pictureBox1
             // 

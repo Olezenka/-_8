@@ -17,16 +17,12 @@ namespace ЛР_8.CastomElements
         {
             InitializeComponent();
         }
-        public void Fill()
+        public void Fill() //Вынесено в отдельный метод
         {
             Model1 model1 = new Model1();
             model1.Product.ToList().ForEach(x =>
             flowLayoutPanel1.Controls.Add(new ProductControl(x)));
         }
 
-        private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
     }
 }
