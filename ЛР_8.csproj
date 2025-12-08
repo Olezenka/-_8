@@ -55,6 +55,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CastomElements\PanelControls.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CastomElements\PanelControls.Designer.cs">
+      <DependentUpon>PanelControls.cs</DependentUpon>
+    </Compile>
     <Compile Include="CastomElements\ProductControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -77,6 +83,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CastomElements\PanelControls.resx">
+      <DependentUpon>PanelControls.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CastomElements\ProductControl.resx">
       <DependentUpon>ProductControl.cs</DependentUpon>
     </EmbeddedResource>
