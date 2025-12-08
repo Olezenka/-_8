@@ -26,9 +26,5 @@ namespace ЛР_8.CastomElements
             MemoryStream ms = new MemoryStream(product.Image, 0, product.Image.Length);
             pictureBox1.Image = Image.FromStream(ms);
         }
-        private void ProductControl_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }

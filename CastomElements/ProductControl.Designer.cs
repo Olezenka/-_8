@@ -109,7 +109,6 @@
             this.Controls.Add(this.panel1);
             this.Name = "ProductControl";
             this.Size = new System.Drawing.Size(494, 721);
-            this.Load += new System.EventHandler(this.ProductControl_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

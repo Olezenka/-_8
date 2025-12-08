@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using ЛР_8.Forms;
+using ЛР_8.CastomElements;
 
 namespace ЛР_8
 {
@@ -16,7 +18,7 @@ namespace ЛР_8
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ParrentForm());
+            Application.Run(new MainForm());
         }
     }
 }

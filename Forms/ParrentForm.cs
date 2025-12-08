@@ -19,7 +19,12 @@ namespace ЛР_8.Forms
 
         private void ParrentForm_Load(object sender, EventArgs e)
         {
+            this.Text = "Лопушок";
+        }
 
+        private void buttonExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
