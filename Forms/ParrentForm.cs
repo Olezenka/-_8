@@ -8,13 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ЛР_8
+namespace ЛР_8.Forms
 {
-    public partial class Form1 : Form
+    public partial class ParrentForm : Form
     {
-        public Form1()
+        public ParrentForm()
         {
             InitializeComponent();
+        }
+
+        private void ParrentForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
